@@ -1,0 +1,21 @@
+{
+  "name": "ExampleModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+    "Withauditing": {},
+    "Defaultacl": {}
+  },
+  "properties": {
+
+  },
+  "validations": [],
+  "relations": {
+
+  },
+  "acls": [],
+  "methods": {}
+}

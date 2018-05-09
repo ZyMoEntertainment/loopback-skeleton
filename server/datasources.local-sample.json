@@ -1,0 +1,22 @@
+{
+  "db": {
+    "host": "ENTERHOSTNAME",
+    "port": "PORT",
+    "database": "DATABASENAME",
+    "username": "USERNAME",
+    "password": "PASSWORD",
+    "name": "postgres",
+    "debug": true,
+    "connector": "postgresql, mysql, mongo, PICK ONE"
+  },
+  "mysql": {
+    "host": "ENTERHOSTNAME",
+    "port": "PORT",
+    "database": "DATABASENAME",
+    "url": "",
+    "password": "PASSWORD",
+    "name": "mysql",
+    "user": "username",
+    "connector": "mysql"
+  }
+}
