@@ -10,7 +10,10 @@
     "Defaultacl": {}
   },
   "properties": {
-
+    "name": {
+      "type": "string",
+      "required": "true"
+    }
   },
   "validations": [],
   "relations": {
