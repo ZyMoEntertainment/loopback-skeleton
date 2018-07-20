@@ -19,7 +19,7 @@ module.exports = function(ExampleModel) {
     });
   };
 
-  //ex api/Events/exists/John
+  //ex api/ExampleModel/exists/John
   ExampleModel.remoteMethod('existsByName', {
     accepts: {arg: 'name', type: 'string', required: true},
     returns: {arg: 'data', root: true},
