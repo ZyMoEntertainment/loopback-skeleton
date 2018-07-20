@@ -13,6 +13,6 @@ module.exports = {
 
   loginAsAdmin: function(cb) {
     let credentials = this.credentials.admin;
-    app.models.User.login(credentials, cb);
+    app.models.MyUser.login(credentials, cb);
   }
 }
