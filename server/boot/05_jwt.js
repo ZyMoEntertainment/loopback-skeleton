@@ -4,7 +4,7 @@ const secretKey = process.env.JWT_SECRET_KEY || 'test';
 const Utils = require('../services/util-service');
 
 module.exports = function(app) {
-  const User = app.models.User;
+  const User = app.models.MyUser;
   const AccessToken = app.models.AccessToken;
 
   User.prototype.createAccessToken = function(ttl, cb) {
