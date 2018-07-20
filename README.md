@@ -29,6 +29,10 @@
 
 By default the app runs on an in memory database, so you don't necessarily _have_ to do this to get started. If you're just interested in learning loopback or testing out an idea the memory adapter works great.
 
+## User Management
+
+This comes with default user registration / login features built in. The `my-user` model overrides the default loopback user model (this is a common pattern for adding custom user fields, remote methods, etc). If you want to rename it something else that's fine, just make sure the app still runs and the tests still pass and you should be fine. This skeleton does not implement role based authorization. The Church Mutual Now API provides a good example of implementing those features.
+
 ## Running Locally
 
 If you use visual studio code, there are launch configurations in place already. Local will spin up a local instance pointed at port 3000, and Test will run the unit tests. You should use VS Code. It's free, and it's nice.
