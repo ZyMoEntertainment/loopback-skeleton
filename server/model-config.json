@@ -38,5 +38,9 @@
   "ExampleModel": {
     "dataSource": "db",
     "public": true
+  },
+  "Error": {
+    "dataSource": "db",
+    "public": false
   }
 }

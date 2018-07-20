@@ -1,5 +1,5 @@
 {
-  "name": "ExampleModel",
+  "name": "Error",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -10,9 +10,17 @@
     "Defaultacl": {}
   },
   "properties": {
-    "name": {
-      "type": "string",
-      "required": "true"
+    "error": {
+      "type": "string"
+    },
+    "stack": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "deviceInfo": {
+      "type": "string"
     }
   },
   "validations": [],
