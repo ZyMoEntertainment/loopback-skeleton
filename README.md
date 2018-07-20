@@ -12,7 +12,8 @@
 * 4 - run `npm install`
 * 5 - create and configure your datasources.local.json file to point at whatever data source you are using. There is a sample file contained in the repo. We typically use postgres and host on an aws rds instance, here is an example of how that might look:
 
-```{
+```
+{
   "db": {
     "host": "somewhere.rds.amazonaws.com",
     "port": "5432",
@@ -23,7 +24,8 @@
     "debug": true,
     "connector": "postgresql"
   }
-}```
+}
+```
 
 By default the app runs on an in memory database, so you don't necessarily _have_ to do this to get started. If you're just interested in learning loopback or testing out an idea the memory adapter works great.
 
