@@ -2,7 +2,7 @@
 
 module.exports = function(app, cb) {
 
-  let person = app.models.User;
+  let person = app.models.MyUser;
 
   let email = 'example@email.com';
 
